@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="720" viewBox="0 0 300 720">
+  <style>
+    .item { font: 16px sans-serif; fill: white; }
+    .bg { fill: #202020; }
+    .line { stroke: gray; stroke-width:1; }
+  </style>
+  <rect x="0" y="0" width="300" height="720" class="bg" />
+  <g>
+    <text x="20" y="30" class="item">アプリと機能(E)</text>
+    <text x="20" y="60" class="item">モビリティ センター(B)</text>
+    <text x="20" y="90" class="item">電源オプション(O)</text>
+    <text x="20" y="120" class="item">イベント ビューアー(V)</text>
+    <text x="20" y="150" class="item">システム(L)</text>
+    <text x="20" y="180" class="item">デバイス マネージャー(M)</text>
+    <text x="20" y="210" class="item">ネットワーク接続(W)</text>
+    <text x="20" y="240" class="item">ディスクの管理(K)</text>
+    <text x="20" y="270" class="item">コンピューターの管理(G)</text>
+    <text x="20" y="300" class="item">Windows PowerShell(I)</text>
+    <text x="20" y="330" class="item">Windows PowerShell（管理者）(A)</text>
+
+    <line x1="0" y1="360" x2="300" y2="360" class="line" />
+
+    <text x="20" y="390" class="item">タスク マネージャー(T)</text>
+    <text x="20" y="420" class="item">設定(N)</text>
+    <text x="20" y="450" class="item">エクスプローラー(E)</text>
+    <text x="20" y="480" class="item">検索(S)</text>
+    <text x="20" y="510" class="item">ファイル名を指定して実行(R)</text>
+
+    <line x1="0" y1="540" x2="300" y2="540" class="line" />
+
+    <text x="20" y="570" class="item">シャットダウンまたはサインアウト(U)</text>
+    <text x="20" y="600" class="item">デスクトップ(D)</text>
+  </g>
+</svg>
