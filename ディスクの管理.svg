@@ -1,0 +1,36 @@
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg" font-family="Arial" font-size="14">
+
+  <!-- ディスク 0 タイトル -->
+  <text x="20" y="30" font-size="16" font-weight="bold">ディスク 0（119.12 GB）</text>
+
+  <!-- ディスク 0 パーティションバー -->
+  <rect x="20" y="40" width="760" height="40" fill="#ddd" stroke="#999" />
+
+  <!-- EFI パーティション -->
+  <rect x="20" y="40" width="20" height="40" fill="#fdd835" stroke="#333" />
+  <text x="22" y="65" font-size="10" fill="#000">EFI</text>
+
+  <!-- C: パーティション -->
+  <rect x="40" y="40" width="715" height="40" fill="#64b5f6" stroke="#333" />
+  <text x="350" y="65" fill="#fff">C: Windows (117.94 GB)</text>
+
+  <!-- 回復パーティション -->
+  <rect x="755" y="40" width="25" height="40" fill="#9ccc65" stroke="#333" />
+  <text x="758" y="65" font-size="10">回復</text>
+
+
+  <!-- ディスク 1 タイトル -->
+  <text x="20" y="130" font-size="16" font-weight="bold">ディスク 1（931.51 GB）</text>
+
+  <!-- ディスク 1 パーティションバー -->
+  <rect x="20" y="140" width="760" height="40" fill="#ddd" stroke="#999" />
+
+  <!-- D: パーティション -->
+  <rect x="20" y="140" width="748" height="40" fill="#81d4fa" stroke="#333" />
+  <text x="350" y="165" fill="#000">D: データ (918.05 GB)</text>
+
+  <!-- 回復パーティション -->
+  <rect x="768" y="140" width="12" height="40" fill="#9ccc65" stroke="#333" />
+  <text x="768" y="165" font-size="10">回復</text>
+
+</svg>
